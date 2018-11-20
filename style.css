@@ -1,0 +1,105 @@
+/* PAGE */
+
+body {
+    margin: 0px;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 647px;
+    border: 1px solid red;
+}
+
+.menu-nav-header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    align-content: space-around;
+    padding: 30px 0px 30px 0px;
+}
+
+.nav-header {
+    height: 111px;
+    width: 12%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu-item {
+    font-family: 'Kaushan Script';
+    color: black;
+    font-size: 1.5em;
+}
+
+.icon {
+   font-size: 51px;
+   color: black;
+}
+
+.promotion {
+    height: 52px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1px 0px 1px 0px;
+    font-family: "Playfair Script";
+}
+
+.big-title {
+    height: 92px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* HOVER */
+
+/* CONTENT */
+
+.content {
+    width: 100%;
+    height: 1282px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+
+.presentation {
+    height: 136px;
+    border: 1px solid green;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    height: 414px;
+    background-color: #8a75d2;
+    padding: 0px 20px;
+}
+
+article {
+    text-align: center;
+}
+
+.map {
+    height: 545px;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 60px;
+    background: #8a75d2;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+}
