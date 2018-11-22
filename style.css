@@ -12,6 +12,7 @@ header {
     background-image: url("position.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    color: #fff;
 }
 
 .menu-nav-header {
@@ -32,13 +33,13 @@ header {
 
 .menu-item {
     font-family: 'Kaushan Script';
-    color: black;
+    color: #fff;
     font-size: 1.5em;
 }
 
 .icon {
    font-size: 51px;
-   color: black;
+   color: #fff;
 }
 
 .promotion {
@@ -52,7 +53,8 @@ header {
 .big-title {
     height: 92px;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
+    font-family: 'Kaushan Script';
     text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -60,11 +62,11 @@ header {
 
 .presentation-img {
     display: inline-block;
-    height: 190px;
+    height: 175px;
 }
 
 .small-img {
-    height: 200px;
+    height: 150px;
     border-radius: 50%;
 }
 
@@ -78,7 +80,7 @@ header {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-
+    font-family: "Playfair Display";
 }
 
 .presentation-1, .presentation-2 {
@@ -92,6 +94,16 @@ header {
     border-bottom: 1px solid grey;
 }
 
+.presentation-1 > p {
+    text-align: justify;
+    padding: 20px;
+}
+
+.presentation-2 > p {
+    text-align: justify;
+    padding: 20px;
+}
+
 h2, h3 {
     text-align: center;
 }
@@ -102,10 +114,16 @@ h2, h3 {
     height: 800px;
     background-color: #8a75d2;
     padding: 0px 20px;
+    color: #fff;
 }
 
 article {
     text-align: center;
+}
+
+.small-info {
+    text-align: justify;
+    padding: 15px;
 }
 
 .map {
