@@ -51,8 +51,8 @@
         </section>
     </header>
 
-    <section class="content">
-        <h1>Réserver votre place pour le prochain cours de Yoga du rire !</h1>
+    <section class="schedule">
+        <h1 class="second-title">Réserver votre place pour le prochain cours de Yoga du rire !</h1>
 
         <div class="table">
             <table>
@@ -105,54 +105,45 @@
                 </tr>
             </table>
         </div>
+    </section>
 
+    <section class="form">
         <h3>Pour valider votre réservation, compléter ce formulaire :</h3>
 
-        <fieldset>
-            <legend>Vos coordonnées</legend>
-            <label>
-                Votre prénom
-                <input type="text">
-            </label>
-            <label>
-                Votre nom
-                <input type="text">
-            </label>
-            <label>
-                Votre e-mail
-                <input type="text">
-            </label>
-        </fieldset>
+        <form method="POST">
+            <input type="text" id="fName" placeholder="Votre prénom">
+            <input type="text" id="lName" placeholder="Votre nom">
+            <input type="text" id="email" placeholder="Votre adresse e-mail"> 
+        </form>
 
-        <fieldset>
-            <legend>Quelles sont les raisons de votre venue ?</legend>
-            <label for="checkbox">Besoin de me détendre</label>
-            <input type="checkbox" name="choice-1"> Mon médecin m'a conseillé de venir
-            <input type="checkbox" name="choice-2"> Je veux tester avec des amis
-            <input type="checkbox" name="choice-3">
+        <h4>Quels sont les raisons de votre venue ?</h4>
 
-        </fieldset>
+        <input type="checkbox">
+        Besoin de me détendre
+        <input type="checkbox">
+        Mon médecin m'a conseillé de venir
+        <input type="checkbox">
+        Je veux tester avec des amis
+        
+        <h4>Voulez-vous vous inscrire à notre programme de fidélité</h4>
 
-        <fieldset>
-            <legend>Voulez-vous souscrire à notre programme de fidélité ?</legend>
-            Oui
-            <input type="radio" name="answer" value="yes"> Non
-            <input type="radio" name="answer" value="no">
-        </fieldset>
+        <input type="radio">
+        Oui
+        <input type="radio">
+        Non
 
-        <fieldset>
-            <legend>Comment avez-vous connu Ila Yoga ?</legend>
-            <select name="choice">
-                <option value="internet" selected>Internet</option>
-                <option value="friends">Par des amis</option>
-            </select>
-        </fieldset>
+        <h4>Comment avez-vous connu Ila Yoga ?</h4>
+
+        <select>
+            <option value="internet" selected>Par internet</option>
+            <option value="friends">Par des amis</option>
+            <option value="press"> Pare la presse</option>
+            <option value="other">Autre</option>
+        </select>
 
         <button name="submit">
             Envoyer
         </button>
-
-
     </section>
 
     <footer>
